@@ -1,6 +1,6 @@
 # Nelder-Mead Method
 
-A python implementation of the Nelder-Mead method for gradient free optimization.
+A python implementation of the Nelder-Mead method for gradient free optimization.  
 
 ## Example Usage:
 
@@ -14,7 +14,7 @@ def rosenbrock(x):
 nelder = NelderMead()
 x0 = np.array([0., 0.])
 res = nelder.minimize(rosenbrock, x0, 100)
-print(res)
+print(res) # {'x': array([1., 1.]), 'iteration': 96}
 ```
 
 ## References
